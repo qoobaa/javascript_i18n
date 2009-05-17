@@ -42,6 +42,22 @@ every request in development mode, putting the code in your
     JavascriptI18n.build unless Rails.env.production?
   end
 
+You can use I18n.t function in your JavaScript files, it's similar to
+ActiveSupport I18n.t:
+
+  I18n.t("hello");
+  // "Hello World!"
+  I18n.t("foo.bar")
+  // "baz"
+  I18n.t("non.existing")
+  // null
+  I18n.t("non.existing", { defaultValue: "foo" })
+  // "foo"
+  I18n.t("bar", { count: 1 })
+  // "foo"
+  I18n.t("bar", { count: 2 })
+  // "foos"
+
 == Copyright
 
 Copyright (c) 2009 Jakub Kuźma. See LICENSE for details.
