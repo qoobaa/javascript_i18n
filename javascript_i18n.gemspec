@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{javascript_i18n}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jakub Kuźma"]
@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
      "generators/javascript_i18n/javascript_i18n_generator.rb",
      "generators/javascript_i18n/templates/javascripts/base.js",
      "generators/javascript_i18n/templates/tasks/javascript_i18n.rake",
+     "javascript_i18n.gemspec",
      "lib/javascript_i18n.rb",
      "test/javascript_i18n_test.rb",
      "test/test_helper.rb"
