@@ -7,7 +7,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "javascript_i18n"
-    gem.summary = %Q{TODO}
+    gem.summary = %Q{Simple JavaScript i18n}
     gem.email = "qoobaa@gmail.com"
     gem.homepage = "http://github.com/qoobaa/javascript_i18n"
     gem.authors = ["Jakub Kuźma"]

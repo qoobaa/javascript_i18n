@@ -5,7 +5,7 @@ class JavascriptI18nGenerator < Rails::Generator::Base
     record do |m|
       m.directory "public/javascripts"
       m.directory "public/javascripts/i18n"
-      m.file      "javascripts/base.js", "public/javascripts/base.js"
+      m.file      "javascripts/base.js", "public/javascripts/i18n/base.js"
 
       m.directory "lib/tasks"
       m.file      "tasks/javascript_i18n.rake", "lib/tasks/javascript_i18n.rake"
