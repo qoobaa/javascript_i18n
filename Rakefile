@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require 'rubygems'
 require 'rake'
 
@@ -8,7 +10,7 @@ begin
     gem.summary = %Q{TODO}
     gem.email = "qoobaa@gmail.com"
     gem.homepage = "http://github.com/qoobaa/javascript_i18n"
-    gem.authors = ["Jakub"]
+    gem.authors = ["Jakub Kuźma"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 
