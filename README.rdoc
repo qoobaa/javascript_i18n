@@ -1,0 +1,7 @@
+= javascript_i18n
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Jakub. See LICENSE for details.
