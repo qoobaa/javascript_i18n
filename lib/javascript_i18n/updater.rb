@@ -25,8 +25,9 @@ module JavascriptI18n
   end
 
   def self.update!
+    time = Updater.instance.most_recent_update_time
     builder = Builder.new(configuration.lib_path, configuration.output_path, configuration.output_style)
     builder.run
-    Updater.instance.last_update_time = Updater.instance.most_recent_update_time
+    Updater.instance.last_update_time = time
   end
 end
