@@ -3,4 +3,5 @@ lib/**/*.rb
 generators/javascript_i18n/*.rb
 generators/javascript_i18n/templates/javascripts/*.js
 generators/javascript_i18n/templates/tasks/*.rake
+generators/javascript_i18n/templates/initializers/*.rb
 LICENSE
