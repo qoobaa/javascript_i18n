@@ -58,6 +58,11 @@ ActiveSupport I18n.t:
   I18n.t("bar", { count: 2 })
   // "foos"
 
+Current locale string can be retrieved using I18n.locale property:
+
+  I18n.locale
+  // "en"
+
 == Copyright
 
 Copyright (c) 2009 Jakub Kuźma. See LICENSE for details.

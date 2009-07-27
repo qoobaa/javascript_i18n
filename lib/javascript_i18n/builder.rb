@@ -17,6 +17,7 @@ module JavascriptI18n
             file.puts(lib)
             file.puts("\n")
           end
+          file.puts("I18n.locale = I18n.locale || \"#{key}\";")
           file.puts("I18n.translations = I18n.translations || #{value.to_json};")
         end
       end
