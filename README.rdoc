@@ -8,7 +8,7 @@ the language he uses (10 times smaller than in Babilu). Because of
 that fact we don't need to set any cookies to tell the client which
 locale he uses.
 
-* homepage[http://jah.pl/projects/javascript_i18n.html]
+* homepage[http://jah.pl/projects/javascript-i18n.html]
 * gemcutter[http://gemcutter.org/gems/javascript_i18n]
 * repository[http://github.com/qoobaa/javascript_i18n]
 * {issue tracker}[http://github.com/qoobaa/javascript_i18n/issues]
